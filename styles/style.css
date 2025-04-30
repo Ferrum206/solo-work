@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Fraunces", serif;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fraunces-regular {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1230px;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.half-head {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #33383f;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.sign-in {
+  color: #0070a0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  padding-right: 11px;
+}
+
+.demo {
+  padding: 6px 20px;
+  background-color: #0070a0;
+  border: none;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
